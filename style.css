@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #FFFFFF; 
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+
+main {
+  width: 82.1rem;
+  height: 33.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: #323238;
+  font-size: 12.6rem;
+  font-weight: 500;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: .9rem;
+}
+
+.controls button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sounds{
+  display: grid;
+  grid-template: "A B"
+                  "C D";
+  gap: 3.2rem;
+  
+}
+
+.sounds button{
+  border-radius: 2.4rem;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+
+
